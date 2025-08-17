@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stelios Stam — QA Automation Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background-color: #0b0f14;
+        color: #fff;
+        overflow-x: hidden;
+      }
+      header {
+        background-color: #121823;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      nav a {
+        color: #7dc4ff;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .hero {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 10%;
+        flex-wrap: wrap;
+        overflow: hidden;
+      }
+      .hero img {
+        width: 300px;
+        border-radius: 20px;
+        border: 2px solid rgba(125, 196, 255, 0.35);
+        z-index: 2;
+        position: relative;
+      }
+      h1 {
+        font-size: 48px;
+        margin: 0 0 10px 0;
+      }
+      .subtitle {
+        color: #9fb2c8;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .btn {
+        background-color: #7dc4ff;
+        color: #0b0f14;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+      .btn:hover {
+        background-color: #5aa1e6;
+      }
+      section {
+        padding: 60px 10%;
+      }
+      h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+      .tools,
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .highlight {
+        color: #7dc4ff;
+      }
+      .card {
+        background-color: #121823;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        color: #9fb2c8;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      #particle-canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        pointer-events: none;
+      }
+      #about {
+        margin-top: -70px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Stelios Stamatakis</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#tools">Tools</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <canvas id="particle-canvas"></canvas>
+      <div>
+        <h1>Stelios Stamatakis</h1>
+        <div class="subtitle">Manual & Automation QA Engineer</div>
+        <a
+          href="https://gr.linkedin.com/in/stelios-stamatakis-854559201"
+          class="btn"
+          target="_blank"
+          >Connect on LinkedIn</a
+        >
+      </div>
+      <img src="avatar.jpg" alt="Profile Picture" />
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a dedicated Quality Assurance Engineer with hands-on experience in
+        manual and automation testing for web and mobile applications (iOS &
+        Android). I have worked with API testing using Postman and Swagger,
+        regression and functional testing, and have started implementing
+        automation with Selenium and Appium. With a 5-year background as a
+        Biomedical Engineer, I bring strong analytical and problem-solving
+        skills to QA, ensuring thorough and accurate testing. Fluent in English
+        and Greek, I thrive in Agile environments, collaborating with
+        development teams to deliver high-quality, stable, and user-focused
+        software. Passionate about continuous learning, I am eager to expand my
+        automation expertise and contribute to improving QA processes.
+      </p>
+    </section>
+
+    <section id="tools">
+      <h2>Tools</h2>
+      <div class="tools">
+        <div class="card">
+          <span class="highlight">Jira</span> - project management
+        </div>
+        <div class="card">
+          <span class="highlight">Slack</span> - communication within the team
+        </div>
+        <div class="card">
+          <span class="highlight">Git</span> - for better work in development
+          team and controlling software versions
+        </div>
+        <div class="card">
+          <span class="highlight">Github</span> - supporting Git and preparing
+          my repositories
+        </div>
+        <div class="card">
+          <span class="highlight">Postman</span> - API testing
+        </div>
+        <div class="card">
+          <span class="highlight">Swagger</span> - API documentation and testing
+        </div>
+        <div class="card">
+          <span class="highlight">Visual Studio Code</span> - practicing HTML
+          and CSS
+        </div>
+        <div class="card">
+          <span class="highlight">Google Drive</span> - cloud storage and file
+          sharing
+        </div>
+        <div class="card">
+          <span class="highlight">Git bash</span> - command-line interface for
+          Git
+        </div>
+        <div class="card">
+          <span class="highlight">PowerShell</span> - automation and scripting
+          on Windows
+        </div>
+        <div class="card">
+          <span class="highlight">Zephyr Scale</span> - test management for Jira
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Delekhomes</h3>
+          <p><strong>Manual QA Engineer – Delekhomes Project</strong></p>
+          <ul>
+            <li>Executed manual testing for web and API functionalities.</li>
+            <li>Utilized Postman and Swagger for API request validation.</li>
+            <li>
+              Performed regression testing, creating detailed test cases and
+              documenting bug reports.
+            </li>
+            <li>
+              Collaborated with development team to ensure timely issue
+              resolution and product quality.
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Playball Mobile App</h3>
+          <p><strong>Manual & Automation QA Engineer</strong></p>
+          <ul>
+            <li>
+              Executed manual testing of mobile application functionalities on
+              iOS and Android devices.
+            </li>
+            <li>
+              Designed, maintained, and executed functional and regression test
+              cases.
+            </li>
+            <li>
+              Validated API endpoints and responses using Postman and Swagger.
+            </li>
+            <li>
+              Logged and tracked defects, collaborating with developers to
+              ensure timely resolution.
+            </li>
+            <li>
+              Contributed to the QA process improvement by integrating manual
+              and automated testing approaches.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:stam_styl@hotmail.gr">stam_styl@hotmail.gr</a>
+      </p>
+      <p>Location: Athens, GR</p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Stelios Stam — Built with HTML & CSS
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      const canvas = document.getElementById("particle-canvas");
+      const ctx = canvas.getContext("2d");
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      class Particle {
+        constructor() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.radius = Math.random() * 3 + 1;
+          this.vx = (Math.random() - 0.5) * 0.5;
+          this.vy = (Math.random() - 0.5) * 0.5;
+        }
+        update() {
+          this.x += this.vx;
+          this.y += this.vy;
+          if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+          if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+        }
+        draw() {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+          ctx.fillStyle = "rgba(125,196,255,0.7)";
+          ctx.fill();
+        }
+      }
+
+      const particles = Array.from({ length: 100 }, () => new Particle());
+
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach((p) => {
+          p.update();
+          p.draw();
+        });
+        requestAnimationFrame(animate);
+      }
+      animate();
+
+      window.addEventListener("resize", () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      });
+    </script>
+  </body>
+</html>
